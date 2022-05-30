@@ -9,5 +9,5 @@ func main(){
     fmt.Println(&a, b) // here both the values will be the memory address of 'a'
     fmt.Println(a, *b) // here the '*' operator is used to dereference the value of 'b' which gives us the stored integer value
     a = 1
-    fmt.Println(a, *b) // both the value will be the stored integer value 
+    fmt.Println(a, *b) // both the values will be the stored integer value 
 }
